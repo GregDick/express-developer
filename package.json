@@ -1,0 +1,25 @@
+{
+  "name": "express-developer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GregDick/express-developer.git"
+  },
+  "author": "Greg Dick <gregory.j.dick@vanderbilt.edu>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/GregDick/express-developer/issues"
+  },
+  "homepage": "https://github.com/GregDick/express-developer#readme",
+  "dependencies": {
+    "body-parser": "^1.13.3",
+    "ejs": "^2.3.3",
+    "express": "^4.13.3",
+    "morgan": "^1.6.1"
+  }
+}
