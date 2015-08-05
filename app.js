@@ -5,7 +5,10 @@ var bodyParser = require('body-parser');
 
 app.set('view engine', 'ejs');
 
+app.use(bodyParser.urlencoded({extended: true}));
 app.use(morgan('dev'));
+
+app.locals.title = 'DevSpace';
 
 var routes = require('./routes/index');
 var about = require('./routes/about');
