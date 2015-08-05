@@ -8,6 +8,8 @@ app.set('view engine', 'ejs');
 app.use(bodyParser.urlencoded({extended: true}));
 app.use(morgan('dev'));
 
+require('./lib/secrets');
+
 app.locals.title = 'DevSpace';
 
 var routes = require('./routes/index');

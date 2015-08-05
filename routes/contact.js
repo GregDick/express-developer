@@ -3,11 +3,12 @@ var nodemailer = require('nodemailer');
 
 var router = express.Router();
 
+
 var transporter = nodemailer.createTransport({
   service: 'Gmail',
   auth: {
     user: 'gregdick.dev@gmail.com',
-    pass: process.env.pass
+    pass: process.env.PASS
   }
 });
 
